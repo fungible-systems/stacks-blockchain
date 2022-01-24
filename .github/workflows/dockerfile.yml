@@ -2,7 +2,7 @@ name: dockerfile
 on:
   push:
     branches:
-      - 'feat/faster-bootup'
+      - 'feat/faster-bootup-docker'
 jobs:
   docker:
     runs-on: ubuntu-latest
